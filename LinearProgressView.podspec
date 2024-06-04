@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/BiAtoms/LinearProgressView.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '8.0'
-    s.source_files = 'Source/*.swift'
+    s.source_files = 'Sources/LinearProgressView/*.swift'
 end
